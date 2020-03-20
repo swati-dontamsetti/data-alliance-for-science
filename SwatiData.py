@@ -1,3 +1,5 @@
+# Swati: education rate vs basic water access
+# and education rate vs basic sanitation services
 # import pandas
 import pandas as pd
 import matplotlib.pyplot as plt
