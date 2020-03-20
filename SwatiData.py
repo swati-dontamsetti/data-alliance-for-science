@@ -100,3 +100,17 @@ plt.xlabel("Female High School Complete Rates (%)")
 plt.ylabel("Availabilty of Sanitation Services at Home (%)")
 print(f"The r-squared is: {rvalue}")
 plt.savefig("female completion vs sanitation")
+
+# Map out Top 10 Best Contries for Ed Completion
+# sort male and female completion rates, and reduce to top 10
+sorted_m_ed = u_ed_wash.sort_values("Completion rate 2012–2018, Upper secondary education, male", ascending = False)
+top_ten_m = sorted_m_ed.head(10)
+sorted_f_ed = u_ed_wash.sort_values("Completion rate 2012–2018, Upper secondary education, female", ascending = False)
+top_ten_f = sorted_f_ed.head(10)
+top_ten_f
+
+# bar plot of top 10 countries for male completion rate
+top_ten_m.plot.bar(x='countries and areas', y='Completion rate 2012–2018, Upper secondary education, male', rot=90, title="Top 10 Countries for Male High School Completion", legend=False)
+
+# bar plot of top 10 countries for female completion rate
+top_ten_f.plot.bar(x='countries and areas', y='Completion rate 2012–2018, Upper secondary education, female', rot=90, title="Top 10 Countries for Female High School Completion", legend=False)
