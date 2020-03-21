@@ -32,3 +32,7 @@ Each group member took two questions and represented that data with either bar g
 ![Top10Male](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20male.png?raw=true) ![Top10Female](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20female.png?raw=true)
 
 **Conclusion:** Based of the fact that North Korea is the top country at 100%, we expect that not all countries are reporting honestly. Or if a country lets on top performing or the wealthies students attend high school could skew the data as well.
+
+## Net Migration
+![1](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/Male%20Upper%20Ed%20Completion%20vs%20Rate%20of%20Immigration.png?raw=true) ![2](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/Female%20Upper%20Ed%20Completion%20vs%20Rate%20of%20Immigration.png?raw=true)
+**Conclusion:* Most data points are clustered around 0 regardless of graduation rate.
