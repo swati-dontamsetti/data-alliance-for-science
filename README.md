@@ -15,6 +15,13 @@ Education is commonly touted as the great equalizer of people. Education is mean
 
 Our hypothesis was that education does affect a country's living conditions.
 
+## Cleaning Process
+Before we could even begin, we first had to hard-clean the data in Excel. The columns were nested within one another, so a data point might have three levels of column names. The first thing we had to do was un-merge the column names and copy and paste them into the lowest level of column names. We also had to get rid of the footnotes and summary findings at the bottom of each Excel sheet. Once this was done, we saved our files as CSVs and uploaded the data to the Resources folder.
+
+After that we were able to merge the data tables each of us needed for our correspondind questions. We then realized that some files used `-` instead of leaving the space blank. This kept us from properly dropping NAs. So we had to use the function `.apply(lambda x: x.replace('−',''))` to make the space blank.
+
+Once that was done. Those blank spaces showed as blank but were still not recognized as NAs. So we had to save our specifically cleaned and merged data as CSVs in the Output_Data folder and then reload it into our code. Only this allowed all the spaces to be recognized as NAs and we were finally able to use the `.dropna(how="any")` function.
+
 ## Questions asked:
 * What 10 countries have the highest graduation rates?
 * Do people move to OR move out of a country based on the country's graduation rate?
