@@ -67,3 +67,6 @@ Each group member took two questions and represented that data with either bar g
 ![13](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/male%20completion%20vs%20sanitation.png?raw=true)![14](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/female%20completion%20vs%20sanitation.png?raw=true)
 
 **Conclusion:** There does seem to be a relationship between a country's graduation rate and whether or not kids have access to sanitation services at home.
+
+## Summary
+Life Expectancy, Live Births per Woman, Sanitation Services seems to be most affect by high school graduation rates. A country's people live longer the more educated they. A country's women have fewer children when they are more educated. And sanitation services do affect a country's education rate. This makes sense especially for women because of the reports from all over the world of girls who have to drop out of school because they don't have access to pads.
