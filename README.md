@@ -30,3 +30,4 @@ Each group member took two questions and represented that data with either bar g
 # Results
 ## Top 10 Countries
 ![Top10Male](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20male.png?raw=true) ![Top10Female](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20female.png?raw=true)
+Conclusion: Based of the fact that North Korea is the top country at 100%, we expect that not all countries are reporting honestly. Or if a country lets on top performing or the wealthies students attend high school could skew the data as well.
