@@ -10,6 +10,9 @@ In the end we found "The State of the World’s Children 2019 Statistical Tables
 
 This thorough and detailed data allowed us to continue with out object of seeing whether a myriad of living conditions affected a locations high school graduation data. Instead of focusing on the US or on a specific state, we focused bigger on country by country basis. And because we graduation rates were separated by male and female, we are able to see if these different living conditions affected men and women differently.
 
+## Motivation:
+Education is commonly touted as the great equalizer of people. Education is meant to help people out of poverty. And the more educated a country is, the better the living conditions are supposed to be in that country. We wanted to see if the data supported these claims. Can we demonstrate actual relationships between how educated a country was and whether or not the people had access to drinking water. We wanted to know just how much education could affect other living conditions.
+
 ## Questions asked:
 * What 10 countries have the highest graduation rates?
 * Do people move to OR move out of a country based on the country's graduation rate?
