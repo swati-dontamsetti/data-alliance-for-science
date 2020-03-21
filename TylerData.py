@@ -6,9 +6,9 @@ import numpy as np
 import scipy.stats as st
 from scipy.stats import linregress
 
-edu_df = pd.read_csv('Clean Education.csv')
-nut_df = pd.read_csv('Clean School Aged Nutrition.csv')
-demog_df = pd.read_csv('Cleaned Demographics.csv')
+edu_df = pd.read_csv('Resources/Clean Education.csv')
+nut_df = pd.read_csv('Resources/Clean School Aged Nutrition.csv')
+demog_df = pd.read_csv('Resources/Cleaned Demographics.csv')
 
 # merge
 tylerData1 = pd.merge(edu_df, nut_df)
@@ -26,10 +26,10 @@ tylerDataComplete['Completion rate 2012–2018, Upper secondary education, femal
 tylerDataSpecific = tylerDataComplete.iloc[:, [13, 14, 23, 41]]
 
 # save data frame as csv so we can remove NAs
-tylerDataSpecific.to_csv("Education and Fertility.csv", encoding='utf-8', index=False)
+tylerDataSpecific.to_csv("Output_Data/Education and Fertility.csv", encoding='utf-8', index=False)
 
 # import merged and cleaned data
-tylerDS = pd.read_csv("Education and Fertility.csv")
+tylerDS = pd.read_csv("Output_Data/Education and Fertility.csv")
 
 #drop blank rows
 tylerDS = tylerDS.dropna(how="any")
@@ -54,7 +54,7 @@ plt.title("Male School Completion Rate vs Fertility Rates")
 plt.xlabel("Male High School Complete Rates (%)")
 plt.ylabel("Live Births per Woman")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("male rate vs fertility")
+plt.savefig("Images/male rate vs fertility")
 
 # scatter plot of female complete rate vs fertility rates
 (slope, intercept, rvalue, pvalue, stderr) = linregress(female, fertility)
@@ -67,7 +67,7 @@ plt.title("Female School Completion Rate vs Fertility Rates")
 plt.xlabel("Female High School Complete Rates (%)")
 plt.ylabel("Live Births per Woman")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("female rate vs fertility")
+plt.savefig("Images/female rate vs fertility")
 
 # scatter plot of male complete rate vs malnutrition
 (slope, intercept, rvalue, pvalue, stderr) = linregress(male,malnutrition)
@@ -80,7 +80,7 @@ plt.title("Male School Completion Rate vs Malnutrition Rates")
 plt.xlabel("Male High School Complete Rates (%)")
 plt.ylabel("Malnutrition among preschool-aged children (%)")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("male rate vs malnutrition")
+plt.savefig("Images/male rate vs malnutrition")
 
 # scatter plot of female complete rate vs malnutrition
 (slope, intercept, rvalue, pvalue, stderr) = linregress(female,malnutrition)
@@ -93,4 +93,4 @@ plt.title("Female School Completion Rate vs Malnutrition Rates")
 plt.xlabel("Female High School Complete Rates (%)")
 plt.ylabel("Malnutrition among preschool-aged children (%)")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("female rate vs malnutrition")
+plt.savefig("Images/female rate vs malnutrition")
