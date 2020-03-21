@@ -1,5 +1,5 @@
 # Education and Living Conditions
-**Group Members:** Swati Dontamsetti (Project Manager), Tyler Neher, Todd M, Steven Kilawattie
+**Group Members:** Swati Dontamsetti (Project Manager), Tyler Neher, Todd Franklin, Steven Kilawattie
 
 ## Background
 We were interested in seeing whether a location's High School graduation rate is affected by other living conditions such as the number of children a woman has or life expectancy.
