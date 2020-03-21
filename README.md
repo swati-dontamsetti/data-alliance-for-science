@@ -29,4 +29,4 @@ Each group member took two questions and represented that data with either bar g
 
 # Results
 ## Top 10 Countries
-![Top10Male](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20male.png?raw=true)
+![Top10Male](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20male.png?raw=true) ![Top10Female](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/top%2010%20female.png?raw=true)
