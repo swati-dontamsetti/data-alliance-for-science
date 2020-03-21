@@ -25,4 +25,6 @@ Our hypothesis was that education does affect a country's living conditions.
 * Does having access to drinking water affect a country's graduation rates?
 * Does having access to sanitation services affect a country's graduation rates?
 
-- Each group member took two questions and represented that data with either bar graphs or scatter plot with a linear regression line.
+Each group member took two questions and represented that data with either bar graphs or scatter plot with a linear regression line. The Jupyter Notebook (and the individual data folder) shows who took which questions.
+
+## Results
