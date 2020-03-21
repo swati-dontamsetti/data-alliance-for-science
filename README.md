@@ -27,4 +27,6 @@ Our hypothesis was that education does affect a country's living conditions.
 
 Each group member took two questions and represented that data with either bar graphs or scatter plot with a linear regression line. The Jupyter Notebook (and the individual data folder) shows who took which questions.
 
-## Results
+# Results
+## Top 10 Countries
+![Male10](Images/top 10 male.png)
