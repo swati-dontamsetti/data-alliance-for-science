@@ -36,4 +36,14 @@ Each group member took two questions and represented that data with either bar g
 ## Net Migration
 ![1](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/Male%20Upper%20Ed%20Completion%20vs%20Rate%20of%20Immigration.png?raw=true)![2](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/Female%20Upper%20Ed%20Completion%20vs%20Rate%20of%20Immigration.png?raw=true)
 
-**Conclusion:* Most data points are clustered around 0 regardless of graduation rate.
+**Conclusion:** Most data points are clustered around 0 regardless of graduation rate.
+
+## Life Expectancy
+![3](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/male%20vs%20life.png?raw=true)![4](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/female%20vs%20life.png?raw=true)
+
+**Conclusion:** Not a perfect relationship, but a country's life expectancy does seem to increase when more of the country is educated.
+
+## Breastfeeding
+![5](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/male%20vs%20breastfeeding.png?raw=true)![6](https://github.com/swati-dontamsetti/data-alliance-for-science/blob/master/Images/female%20vs%20breastfeeding.png?raw=true)
+
+**Conclusion:** There does not seem to be any relationship between breastfeeding early on and a country's graduation rate.
