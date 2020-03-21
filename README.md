@@ -29,4 +29,4 @@ Each group member took two questions and represented that data with either bar g
 
 # Results
 ## Top 10 Countries
-![Male](Images/top 10 male.png)
+![Top10Male](Images/top 10 male.png)
