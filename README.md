@@ -15,7 +15,7 @@ Education is commonly touted as the great equalizer of people. Education is mean
 
 We hypothesized that education does affect a country's living conditions.
 
-## Cleaning Process
+## Cleaning Process:
 Before we could even begin, we first had to hard-clean the data in Excel. The columns were nested within one another, so a data point might have three levels of column names. The first thing we had to do was un-merge the column names and copy and paste them into the lowest level of column names. We also had to get rid of the footnotes and summary findings at the bottom of each Excel sheet. Once this was done, we saved our files as CSVs and uploaded the data to the Resources folder.
 
 After that, we were able to merge the data tables each of us needed for our corresponding questions. We then realized that some files used `-` instead of leaving the space blank. This kept us from properly dropping NAs. So we had to use the function `.apply(lambda x: x.replace('−',''))` to make the space blank.
@@ -34,7 +34,7 @@ Once that was done. Those blank spaces showed as blank but were still not recogn
 
 Each group member took two questions and represented that data with either bar graphs or scatter plot with a linear regression line. The Jupyter Notebook (and the individual data folder) shows who took which questions.
 
-## Summary
+## Summary:
 Life Expectancy, Live Births per Woman, Sanitation Services seems to be most affected by high school graduation rates. A country's people live longer the more educated they. A country's women have fewer children when they are more educated. And sanitation services do affect a country's education rate. This makes sense especially for women because of the reports from all over the world of girls who have to drop out of school because they don't have access to pads.
 
 # Results
