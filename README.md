@@ -24,3 +24,5 @@ Our hypothesis was that education does affect a country's living conditions.
 * Do women have more or less children as the country's graduation rate gets higher?
 * Does having access to drinking water affect a country's graduation rates?
 * Does having access to sanitation services affect a country's graduation rates?
+
+- Each group member took two questions and represented that data with either bar graphs or scatter plot with a linear regression line.
