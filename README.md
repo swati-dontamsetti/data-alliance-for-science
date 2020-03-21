@@ -8,4 +8,14 @@ Initially we tried to do this solely in the United States, and to compare state 
 
 In the end we found "The State of the World’s Children 2019 Statistical Tables" on UNICEF at https://data.unicef.org/resources/dataset/sowc-2019-statistical-tables/.
 
-This thorough and detailed data allowed us to continue with out object of seeing whether a myriad of living conditions affected a locations high school graduation data. Instead of focusing on the US or on a specific state, we focused bigger on country by country basis.
+This thorough and detailed data allowed us to continue with out object of seeing whether a myriad of living conditions affected a locations high school graduation data. Instead of focusing on the US or on a specific state, we focused bigger on country by country basis. And because we graduation rates were separated by male and female, we are able to see if these different living conditions affected men and women differently.
+
+## Questions asked:
+* What 10 countries have the highest graduation rates?
+* Do people move to OR move out of a country based on the country's graduation rate?
+* Does breastfeeding a child reflect on the country's graduation rate?
+* Does life expectancy increase as a country's graduation rate increases?
+* If a country's young are malnutritioned, does this reflect on the country's graduation rate?
+* Do women have more or less children as the country's graduation rate gets higher?
+* Does having access to drinking water affect a country's graduation rates?
+* Does having access to sanitation services affect a country's graduation rates?
