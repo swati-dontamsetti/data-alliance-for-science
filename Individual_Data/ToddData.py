@@ -57,7 +57,7 @@ uedf = ed_mig['Completion rate 2012–2018, Upper secondary education, female']
 rofm = ed_mig['Net migration rate (per 1,000 population) 2015−2020']
 plt.scatter(uedm,rofm, color="blue", label = ("Male Grad Rate vs Migration Rate"));
 plt.xlabel('Male Graduation Upper Sec.Ed',fontsize=14)
-plt.ylabel('Net Migration Rate',fontsize=14);
+plt.ylabel('Net Migration Rate',fontsize=14)
 
 (slope, intercept, rvalue, pvalue, stderr) = linregress(uedm,rofm)
 regress_values = uedm * slope + intercept
@@ -74,7 +74,7 @@ plt.savefig('Images/Male Upper Ed Completion vs Rate of Immigration.png')
 
 plt.scatter(uedf,rofm, color="green", label = ("Female Grad Rate vs Migration Rate"));
 plt.xlabel('Female Graduation Upper Sec.Ed',fontsize=14)
-plt.ylabel('Net Migration Rate',fontsize=14);
+plt.ylabel('Net Migration Rate',fontsize=14)
 
 (slope, intercept, rvalue, pvalue, stderr) = linregress(uedf,rofm)
 regress_values = uedf * slope + intercept

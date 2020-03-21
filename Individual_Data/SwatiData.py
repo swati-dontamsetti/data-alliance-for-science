@@ -7,8 +7,8 @@ import scipy.stats as st
 from scipy.stats import linregress
 
 # identify files
-education = "Clean Education.csv"
-water_sanitation = "Clean WASH.csv"
+education = "Resources/Clean Education.csv"
+water_sanitation = "Resources/Clean WASH.csv"
 
 # read csv
 education_df = pd.read_csv(education)
@@ -31,10 +31,10 @@ education_wash['Completion rate 2012–2018, Upper secondary education, female']
 upper_ed_wash = education_wash.iloc[:, [0,13,14,23,26]]
 
 # save data frame as csv
-upper_ed_wash.to_csv("Education completion rate and Household WASH.csv", encoding='utf-8', index=False)
+upper_ed_wash.to_csv("Output_Data/Education completion rate and Household WASH.csv", encoding='utf-8', index=False)
 
 # import merged and cleaned data
-u_ed_wash = pd.read_csv("Education completion rate and Household WASH.csv")
+u_ed_wash = pd.read_csv("Output_Data/Education completion rate and Household WASH.csv")
 
 #drop blank rows
 u_ed_wash = u_ed_wash.dropna(how="any")
@@ -59,7 +59,7 @@ plt.title("Male School Completion Rate vs Water Availability")
 plt.xlabel("Male High School Complete Rates (%)")
 plt.ylabel("Availabilty of Drinking Water at Home (%)")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("male rate vs water")
+plt.savefig("Images/male rate vs water")
 
 # scatter plot of female complete rate vs water availability
 (slope, intercept, rvalue, pvalue, stderr) = linregress(female,water)
@@ -72,7 +72,7 @@ plt.title("Female School Completion Rate vs Water Availability")
 plt.xlabel("Female High School Complete Rates (%)")
 plt.ylabel("Availabilty of Drinking Water at Home (%)")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("female rate vs water")
+plt.savefig("Images/female rate vs water")
 
 # scatter plot of male complete rate vs sanitation services
 (slope, intercept, rvalue, pvalue, stderr) = linregress(male,sanitation)
@@ -85,7 +85,7 @@ plt.title("Male School Completion Rate vs Sanitation Services")
 plt.xlabel("Male High School Complete Rates (%)")
 plt.ylabel("Availabilty of Sanitation Services at Home (%)")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("male completion vs sanitation")
+plt.savefig("Images/male completion vs sanitation")
 
 # scatter plot of female complete rate vs sanitation services
 (slope, intercept, rvalue, pvalue, stderr) = linregress(female,sanitation)
@@ -98,4 +98,4 @@ plt.title("Female School Completion Rate vs Sanitation Services")
 plt.xlabel("Female High School Complete Rates (%)")
 plt.ylabel("Availabilty of Sanitation Services at Home (%)")
 print(f"The r-squared is: {rvalue}")
-plt.savefig("female completion vs sanitation")
+plt.savefig("Images/female completion vs sanitation")
