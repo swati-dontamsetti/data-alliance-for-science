@@ -1,4 +1,4 @@
-# Education and Living Conditions
+# Living Conditions Effect on Graduation Rates
 **Group Members:** Swati Dontamsetti (Project Manager), Tyler Neher, Todd Franklin, Steven Kilawattie
 
 ## Background
